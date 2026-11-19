@@ -14,13 +14,9 @@ My Japanese name is **ShirahaKanade（白羽 奏）**.
 
 I'm a software engineering undergraduate.
 
-I'm interested in **C++**, **Game Development**, **Computer Graphics**,
+I'm interested in **C++**, **Game Development**, **Computer Graphics**, and I'm currently learning **Unreal Engine 5**.
 
-and I'm currently learning **Unreal Engine 5**.
-
-I like building little worlds, experimenting with ideas, 
-
-and making things that feel meaningful to me.
+I like building little worlds, experimenting with ideas, and making things that feel meaningful to me.
 
 <br clear="all" />
 
