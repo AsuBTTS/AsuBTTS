@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./AsuBTTS.svg" alt="AsuBTTS" width="100%" />
+  <img src="./AsuBTTS_animated.svg" alt="AsuBTTS" width="100%" />
 </p>
 
 ## About me 👋
