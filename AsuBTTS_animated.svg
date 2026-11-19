@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="2048" height="682" viewBox="0 0 2048 682" role="img" aria-labelledby="title desc">
+<title id="title">AsuBTTS — Animated Geometric Wordmark</title>
+<desc id="desc">Animated geometric line art and a modern sans-serif AsuBTTS wordmark. Asu is black and BTTS is green. No braces, side arrows, gradients, or background.</desc>
+<style>
+/* Animated geometric ident; all colors are flat and background is transparent. */
+#geometry .trace-geometric {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+  animation: line-draw 2.55s cubic-bezier(.20,.72,.20,1) var(--delay,0s) forwards;
+}
+#geometry .dotted-arc {
+  opacity: 0;
+  animation: fade-in .85s ease-out 1.30s forwards;
+}
+#axial-marks .mark-enter {
+  opacity: 0;
+  animation: mark-reveal .75s ease-out var(--delay,1.4s) forwards;
+}
+#logotype .outline-word .asu,
+#logotype .outline-word .btts {
+  stroke-dasharray: 1500;
+  stroke-dashoffset: 1500;
+}
+#logotype .outline-word .asu {
+  animation: letter-trace 1.85s ease-in-out .28s forwards, fade-out .38s ease 2.15s forwards;
+}
+#logotype .outline-word .btts {
+  animation: letter-trace 1.85s ease-in-out .65s forwards, fade-out .38s ease 2.47s forwards;
+}
+#logotype .solid-word .asu {
+  opacity: 0;
+  animation: fade-in .60s ease 1.75s forwards;
+}
+#logotype .solid-word .btts {
+  opacity: 0;
+  animation: fade-in .60s ease 2.12s forwards;
+}
+@keyframes line-draw { to { stroke-dashoffset: 0; } }
+@keyframes letter-trace { to { stroke-dashoffset: 0; } }
+@keyframes fade-in { to { opacity: 1; } }
+@keyframes fade-out { to { opacity: 0; } }
+@keyframes mark-reveal { to { opacity: 1; } }
+@media (prefers-reduced-motion: reduce) {
+  #geometry .trace-geometric,
+  #geometry .dotted-arc,
+  #axial-marks .mark-enter,
+  #logotype .outline-word .asu,
+  #logotype .outline-word .btts,
+  #logotype .solid-word .asu,
+  #logotype .solid-word .btts { animation: none !important; }
+  #geometry .trace-geometric { stroke-dashoffset: 0; }
+  #geometry .dotted-arc, #axial-marks .mark-enter,
+  #logotype .solid-word .asu, #logotype .solid-word .btts { opacity: 1; }
+  #logotype .outline-word { display:none; }
+}
+</style><g id="geometry" fill="none" stroke="#008A74" stroke-width="1.65" stroke-opacity=".30">
+<circle cx="1024" cy="341" r="318" stroke-dasharray="2.8 5.1" stroke-opacity=".55" class="dotted-arc"/>
+<circle cx="1024" cy="341" r="282" stroke-opacity=".53" class="trace-geometric" pathLength="1" style="--delay:0.09s"/>
+<circle cx="1024" cy="341" r="212" stroke-opacity=".54" class="trace-geometric" pathLength="1" style="--delay:0.18s"/>
+<circle cx="1128.8" cy="401.5" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.27s"/>
+<circle cx="1024.0" cy="462.0" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.36s"/>
+<circle cx="919.2" cy="401.5" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.45s"/>
+<circle cx="919.2" cy="280.5" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.54s"/>
+<circle cx="1024.0" cy="220.0" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.63s"/>
+<circle cx="1128.8" cy="280.5" r="173" stroke-opacity=".44" class="trace-geometric" pathLength="1" style="--delay:0.72s"/>
+<path d="M1024 22 V656 M697 341 H1351" stroke-opacity=".13" class="trace-geometric" pathLength="1" style="--delay:0.81s"/>
+<path d="M627 256 Q720 164 835 245 M1222 245 Q1328 164 1421 256" stroke-opacity=".29" class="trace-geometric" pathLength="1" style="--delay:0.90s"/>
+</g>
+<g id="axial-marks" stroke="#008A74" stroke-width="1.6">
+ <circle cx="1024" cy="23" r="5" fill="#009A78" stroke="none" class="mark-enter" style="--delay:1.12s"/>
+ <circle cx="1024" cy="656" r="5" fill="#009A78" stroke="none" class="mark-enter" style="--delay:1.22s"/>
+ <circle cx="1024" cy="130" r="8.3" fill="#009A78" stroke="none" class="mark-enter" style="--delay:1.32s"/>
+ <circle cx="1024" cy="551" r="8.3" fill="#009A78" stroke="none" class="mark-enter" style="--delay:1.42s"/>
+ <circle cx="1024" cy="253" r="6" fill="#009A78" fill-opacity=".53" stroke="none" class="mark-enter" style="--delay:1.52s"/>
+ <path d="M1024 48 L1078 125 H970 Z" fill="#009A78" fill-opacity=".16" stroke-opacity=".65" class="mark-enter" style="--delay:1.62s"/>
+ <path d="M1024 634 L970 560 H1078 Z" fill="#009A78" fill-opacity=".16" stroke-opacity=".65" class="mark-enter" style="--delay:1.72s"/>
+ <circle cx="828" cy="141" r="11" fill="none" stroke-opacity=".59" class="mark-enter" style="--delay:1.82s"/>
+ <circle cx="1220" cy="141" r="11" fill="none" stroke-opacity=".59" class="mark-enter" style="--delay:1.92s"/>
+ <circle cx="828" cy="541" r="11" fill="none" stroke-opacity=".59" class="mark-enter" style="--delay:2.02s"/>
+ <circle cx="1220" cy="541" r="11" fill="none" stroke-opacity=".59" class="mark-enter" style="--delay:2.12s"/>
+</g>
+<g id="logotype" aria-label="AsuBTTS">
+ <text x="1024" y="418" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="224" font-style="normal" font-weight="650" letter-spacing="-6" textLength="1000" lengthAdjust="spacingAndGlyphs" class="outline-word" fill="none" stroke-width="3.1" stroke-linejoin="round" stroke-linecap="round"><tspan class="asu" stroke="#000000">Asu</tspan><tspan class="btts" stroke="#009B73">BTTS</tspan></text><text x="1024" y="418" text-anchor="middle" font-family="Inter, Arial, Helvetica, sans-serif" font-size="224" font-style="normal" font-weight="650" letter-spacing="-6" textLength="1000" lengthAdjust="spacingAndGlyphs" class="solid-word" stroke="none"><tspan class="asu" fill="#000000">Asu</tspan><tspan class="btts" fill="#009B73">BTTS</tspan></text></g>
+</svg>
