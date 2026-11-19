@@ -4,13 +4,13 @@
 
 ## About me 👋
 
+<img align="right" width="320" src="https://github.com/AsuBTTS.png" alt="AsuBTTS" />
+
 Hi, I'm **Asu** (AsuBTTS).
 
 **BTTS** stands for *"Back to the Silence (Soul)."*
 
 My Japanese name is **ShirahaKanade（白羽 奏）**.
-
-<img align="right" width="320" src="https://github.com/AsuBTTS.png" alt="AsuBTTS" />
 
 I'm a software engineering undergraduate.
 
