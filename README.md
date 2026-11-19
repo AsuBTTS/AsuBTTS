@@ -2,15 +2,13 @@
   <img src="./AsuBTTS.svg" alt="AsuBTTS" width="100%" />
 </p>
 
-## Welcome to my GitHub profile 👋
+## About me 👋
 
 Hi, I'm **Asu** (AsuBTTS).
 
 **BTTS** stands for *"Back to the Silence (Soul)."*
 
 My Japanese name is **ShirahaKanade（白羽 奏）**.
-
-## About 🤔
 
 <img align="right" width="320" src="https://github.com/AsuBTTS.png" alt="AsuBTTS" />
 
